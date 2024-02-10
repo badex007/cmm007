@@ -7,26 +7,47 @@ body {
   background-color: red;
 }
 
-header{
-
-    background-color: green;
+header {
+  background-color: green;
 }
 
-main{
-
-    background-color: blue;
+main {
+  background-color: blue;
 }
 
-section{
-
-    background-color: orange;
+section {
+  background-color: orange;
 }
 
-aside{
-
-    background-color: yellow;
+aside {
+  background-color: yellow;
 }
 
-article{
-    background-color: purple;
+article {
+  background-color: purple;
+}
+
+/* Navigation Bar*/
+
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav > ul > li {
+  float: left;
+}
+
+nav > ul > li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #363636;
 }
