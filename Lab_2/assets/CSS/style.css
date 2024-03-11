@@ -119,11 +119,11 @@ aside p,h3,h4{
     color: white;
 }
 
-/*
+
 section > h3 {
     color:black;
 }
-*/
+
 /*margin fixes*/
 aside p,h3,h4{
     margin: 0;
